@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "rollup-plugin-sucrase@2.1.0",
+      "/home/xavier/dev/debian/src/pkg-js/packages/node-estree-walker"
+    ]
+  ],
+  "_development": true,
+  "_from": "rollup-plugin-sucrase@2.1.0",
+  "_id": "rollup-plugin-sucrase@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-chdA3OruR1FH/IIKrzZCpGKLXAx3DOHoK24RIPtlVccK0wbTpHE0HpGEQYCxte1XaB17NgRe/frFyKR7g45qxQ==",
+  "_location": "/rollup-plugin-sucrase",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "rollup-plugin-sucrase@2.1.0",
+    "name": "rollup-plugin-sucrase",
+    "escapedName": "rollup-plugin-sucrase",
+    "rawSpec": "2.1.0",
+    "saveSpec": null,
+    "fetchSpec": "2.1.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rollup-plugin-sucrase/-/rollup-plugin-sucrase-2.1.0.tgz",
+  "_spec": "2.1.0",
+  "_where": "/home/xavier/dev/debian/src/pkg-js/packages/node-estree-walker",
+  "author": {
+    "name": "Rich Harris"
+  },
+  "bugs": {
+    "url": "https://github.com/rollup/rollup-plugin-sucrase/issues"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.3.0",
+    "sucrase": "3.x"
+  },
+  "description": "Compile TypeScript, Flow, JSX etc with Sucrase",
+  "devDependencies": {},
+  "homepage": "https://github.com/rollup/rollup-plugin-sucrase#readme",
+  "keywords": [
+    "sucrase",
+    "typescript",
+    "flow",
+    "jsx",
+    "rollup"
+  ],
+  "license": "LIL",
+  "main": "index.js",
+  "name": "rollup-plugin-sucrase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rollup/rollup-plugin-sucrase.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.0"
+}

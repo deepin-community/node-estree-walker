@@ -1,0 +1,4 @@
+debian/build_modules
+debian/tests/test_modules
+mocha.opts
+test

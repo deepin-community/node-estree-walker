@@ -1,0 +1,116 @@
+node-estree-walker (2.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Replace deprecated node-typescript-types dependency by node-types-estree
+    (Closes: ##979777) and fixes debci
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 15 Jan 2021 23:20:35 +0100
+
+node-estree-walker (2.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Julien Puydt ]
+  * Bump std-vers to 4.5.1.
+  * New upstream release.
+
+  [ Xavier Guimard ]
+  * Fix test and autopkgtest (Closes: #978318)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 27 Dec 2020 09:30:05 +0100
+
+node-estree-walker (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Pirate Praveen ]
+  * Bump Standards-Version to 4.5.0 (no changes needed)
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 2.0.1
+  * Embed lines-and-columns, rollup-plugin-sucrase, sucrase and
+    ts-interface-checker for build and test only
+  * Update copyright
+  * Add lintian overrides
+  * Update build
+  * Update test
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 09 Oct 2020 17:31:04 +0200
+
+node-estree-walker (0.7.0-2) unstable; urgency=medium
+
+  * Fix running upstream test suite.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 16 Sep 2019 10:57:56 +0200
+
+node-estree-walker (0.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Install files in /usr/share instead of /usr/lib (new policy).
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 14 Sep 2019 19:30:00 +0200
+
+node-estree-walker (0.6.1-2) unstable; urgency=medium
+
+  * Bump dh compat to 12 and drop d/compat.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Jul 2019 18:42:13 +0200
+
+node-estree-walker (0.6.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-ver to 4.4.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 08 Jul 2019 10:10:46 +0200
+
+node-estree-walker (0.6.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-ver to 4.3.0.
+  * Ship typescript definitions.
+  * Mark the package Multi-Arch: foreign following hinter.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 06 Jan 2019 23:38:42 +0100
+
+node-estree-walker (0.5.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.4.
+    - Use my debian.org mail address.
+    - Update dates in d/copyright.
+    - Point Vcs-* fields to salsa.
+  * Use rollup to build now it is in Debian.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 07 May 2018 10:03:37 +0200
+
+node-estree-walker (0.5.1-1) unstable; urgency=medium
+
+  * New upstream release 0.5.1.
+  * Update packaging:
+    - Use https in d/copyright's Format
+    - Bump d/watch to version 4
+    - Bump std-ver to 4.1.1
+    - Bump dh compat to 10
+    - Move from section web to javascript
+    - Run upstream test suite as autopkgtest
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Thu, 23 Nov 2017 07:21:33 +0100
+
+node-estree-walker (0.5.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 23 Jul 2017 11:05:08 +0200
+
+node-estree-walker (0.4.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #867284)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 05 Jul 2017 15:46:56 +0200

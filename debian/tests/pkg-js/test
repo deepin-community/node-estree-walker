@@ -1,0 +1,1 @@
+NODE_PATH=debian/build_modules:debian/tests/test_modules:/usr/share/nodejs:node_modules mocha
