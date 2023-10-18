@@ -1,5 +1,5 @@
 version=4
 opts=\
 dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-estree-walker-$1.tar.gz/ \
- https://github.com/Rich-Harris/estree-walker/tags .*/archive/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-estree-walker-$1/ \
+ https://github.com/Rich-Harris/estree-walker/tags .*/v?([\d\.]+).tar.gz

@@ -5,14 +5,14 @@ Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.deb
 Uploaders: Julien Puydt <jpuydt@debian.org>
 Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
- , mocha <!nocheck>
  , node-babel7 <!nocheck>
- , node-diff <!nocheck>
+ , node-diff (>= 5.0.0~dfsg+~5.0.1-2~) <!nocheck>
  , node-kleur <!nocheck>
  , rollup
  , node-typescript
  , node-types-estree
-Standards-Version: 4.5.1
+ , uvu <!nocheck>
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-estree-walker
 Vcs-Git: https://salsa.debian.org/js-team/node-estree-walker.git
 Homepage: https://github.com/Rich-Harris/estree-walker
@@ -22,7 +22,6 @@ Rules-Requires-Root: no
 Package: node-estree-walker
 Architecture: all
 Depends: ${misc:Depends}
- , nodejs
 Multi-Arch: foreign
 Description: traverse an ESTree-compliant AST in Node.js
  Provide ways to traverse an Abstract Syntax Tree in the ESTree format,
