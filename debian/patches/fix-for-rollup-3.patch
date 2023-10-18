@@ -1,0 +1,17 @@
+Description: fix for rollup 3
+Author: Yadd <yadd@debian.org>
+Bug-Debian: https://bugs.debian.org/1022636
+Forwarded: not-needed
+Last-Update: 2022-10-26
+
+--- a/rollup.config.js
++++ b/rollup.config.js
+@@ -11,7 +11,7 @@
+ 	};
+ }
+ 
+-export default {
++module.exports = {
+ 	input: {
+ 		'estree-walker': 'src/index.js'
+ 	},

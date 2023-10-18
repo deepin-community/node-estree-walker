@@ -1,19 +1,24 @@
 # False positives
-source-is-missing debian/build_modules/sucrase/dist/CJSImportProcessor.js line length is 500 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/Options-gen-types.js line length is 347 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/index.js line length is 299 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/parser/tokenizer/state.js line length is 337 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/parser/traverser/base.js line length is 258 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/register.js line length is 347 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/transformers/CJSImportTransformer.js line length is 487 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/transformers/JSXTransformer.js line length is 297 characters (>256)
-source-is-missing debian/build_modules/sucrase/dist/util/formatTokens.js line length is 287 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/CJSImportProcessor.js line length is 500 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/Options-gen-types.js line length is 347 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/index.js line length is 299 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/parser/tokenizer/state.js line length is 337 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/parser/traverser/base.js line length is 258 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/register.js line length is 347 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/transformers/CJSImportTransformer.js line length is 487 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/transformers/JSXTransformer.js line length is 297 characters (>256)
-source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/util/formatTokens.js line length is 287 characters (>256)
+source-is-missing debian/build_modules/sucrase/dist/CJSImportProcessor.js
+source-is-missing debian/build_modules/sucrase/dist/Options-gen-types.js
+source-is-missing debian/build_modules/sucrase/dist/index.js
+source-is-missing debian/build_modules/sucrase/dist/parser/tokenizer/state.js
+source-is-missing debian/build_modules/sucrase/dist/parser/traverser/base.js
+source-is-missing debian/build_modules/sucrase/dist/register.js
+source-is-missing debian/build_modules/sucrase/dist/transformers/CJSImportTransformer.js
+source-is-missing debian/build_modules/sucrase/dist/transformers/JSXTransformer.js
+source-is-missing debian/build_modules/sucrase/dist/util/formatTokens.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/CJSImportProcessor.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/Options-gen-types.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/index.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/parser/tokenizer/state.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/parser/traverser/base.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/register.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/transformers/CJSImportTransformer.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/transformers/JSXTransformer.js
+source-contains-prebuilt-javascript-object debian/build_modules/sucrase/dist/util/formatTokens.js
+source-contains-prebuilt-javascript-object debian/tests/test_modules/dequal/dist/index.min.js
+source-contains-prebuilt-javascript-object debian/tests/test_modules/dequal/lite/index.min.js
+very-long-line-length-in-source-file bench/svelte-compiler-3.15.0.json line 2525 is 4974 characters long (>512)
+very-long-line-length-in-source-file debian/tests/test_modules/dequal/dist/index.min.js line 1 is 1262 characters long (>512)
+very-long-line-length-in-source-file debian/tests/test_modules/dequal/lite/index.min.js line 1 is 658 characters long (>512)

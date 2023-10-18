@@ -1,3 +1,31 @@
+node-estree-walker (2.0.2-5) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Add fix for rollup 3 (Closes: #1022636)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 15:44:04 +0200
+
+node-estree-walker (2.0.2-4) unstable; urgency=medium
+
+  * Team upload
+  * Use uptream test (uvu)
+
+ -- Yadd <yadd@debian.org>  Thu, 17 Feb 2022 17:58:54 +0100
+
+node-estree-walker (2.0.2-3) unstable; urgency=medium
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Fix test (require node-diff es6 files)
+
+ -- Yadd <yadd@debian.org>  Mon, 22 Nov 2021 13:56:43 +0100
+
 node-estree-walker (2.0.2-2) unstable; urgency=medium
 
   * Team upload

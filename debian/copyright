@@ -13,7 +13,7 @@ Comment: The upstream distribution does not contain an explicit statement of
 
 Files: debian/*
 Copyright: 2017-2018 Julien Puydt <jpuydt@debian.org>
- 2020 Xavier Guimard <yadd@debian.org>
+ 2020-2022 Yadd <yadd@debian.org>
 License: Expat
 
 Files: debian/build_modules/lines-and-columns/*
@@ -35,10 +35,6 @@ Comment: The upstream distribution does not contain an explicit statement of
  copyright ownership. Pursuant to the Berne Convention for the Protection of
  Literary and Artistic Works, it is assumed that all content is copyright by
  its respective authors unless otherwise stated.
-
-Files: debian/tests/test_modules/*
-Copyright: Luke Edwards <luke.edwards05@gmail.com>
-License: Expat
 
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
